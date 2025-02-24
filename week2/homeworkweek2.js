@@ -10,5 +10,5 @@ console.log(
 if (numberOfToppings < 10) {
   console.log("quality, not quantity.");
 } else {
-  console.log("a whole lot of pizza.");
+  console.log("A whole lot of pizza.");
 }
