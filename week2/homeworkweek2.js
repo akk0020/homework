@@ -12,3 +12,12 @@ if (numberOfToppings < 10) {
 } else {
   console.log("A whole lot of pizza.");
 }
+
+// Bonus //
+
+// let numberOfToppings = 10;
+// for (let i = 1; i <= numberOfToppings; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
