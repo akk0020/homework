@@ -1,0 +1,56 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+  margin: auto
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  height: 100%;
+  /* 300 looks better on my computer than 500 */
+  max-width: 300px;
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 3px;
+}
+
+#introPic {
+  /* float: left; */
+  width: 50%;
+  height: 50%;
+}
+
+#about-me {
+  float: right;
+  margin: auto;
+}
+
+#about-me>li {
+  padding: 2px;
+}
+
+#pro {
+  width: auto;
+}
+
+
+
+/* Media query  */
+@media (max-width: 375px)  {
+  #introPic,
+  #about-me,
+  #pro {
+    float: none;
+    width: 100%;
+    /* background-color: blue; */
+  }
+
