@@ -14,7 +14,7 @@ function greetCustomer() {
 //getPizzaOrder function
 function getPizzaOrder(size, crust, ...toppings) {
   console.log(`one ${size}, ${crust}, with ${toppings}, coming up`);
-  return { size, crust, topping: toppings };
+  return { size, crust, toppings };
 }
 
 //preparePizza function
